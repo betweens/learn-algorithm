@@ -20,7 +20,69 @@ console.log(queue.delete());
 console.log(queue.length);
 console.log(queue); */
 
-import createDirectionLinkList from "./lessons/lesson-04";
+/* 
+// 反转单项链表
+import { createDirectionLinkList, reverseLinkList } from "./lessons/lesson-04";
 
 const linkNode = createDirectionLinkList([1, 2, 3]);
-console.log(linkNode);
+console.log("linkNode", linkNode);
+const reverseLinkNode = reverseLinkList(linkNode);
+console.log("reverseLinkNode", reverseLinkNode); 
+*/
+
+/* 
+import QueueWithList from "./lessons/lesson-05";
+const q = new QueueWithList();
+q.add(1);
+q.add(2);
+q.add(3);
+console.log(q.deleteNode());
+console.log(q.length);
+*/
+
+/* 
+import { binarySearch } from "./lessons/lesson-06";
+const arr = [10, 20, 30, 40, 50, 60];
+console.log(binarySearch(arr, 20));
+ */
+
+/* 
+// 查找两数之和
+import findTwoNumbers from "./lessons/lesson-07";
+const arr = [1, 2, 3, 4, 5, 6, 7];
+console.log(findTwoNumbers(arr, 3));
+*/
+
+import { ITreeNode, getKthValue } from './lessons/lesson-08';
+
+const binaryTree: ITreeNode = {
+  value: 5,
+  left: {
+    value: 3,
+    left:{
+      value: 2,
+      left: null,
+      right: null
+    },
+    right: {
+      value: 4,
+      left: null,
+      right: null
+    }
+  },
+  right: {
+    value: 7,
+    left: {
+      value: 6,
+      left: null,
+      right: null
+    },
+    right: {
+      value: 8,
+      left: null,
+      right: null
+    }
+  }
+}
+
+console.log(getKthValue(binaryTree, 1));
