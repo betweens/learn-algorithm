@@ -4,8 +4,8 @@
   console.log(rotateArr2([1, 2, 3, 4, 5, 6, 7], 3)); 
 */
 
-/* i
-mport matchBracket from "./lessons/lesson-02";
+/* 
+import matchBracket from "./lessons/lesson-02";
 console.log(matchBracket("{[(){}))]}"));
  */
 
@@ -53,8 +53,9 @@ const arr = [1, 2, 3, 4, 5, 6, 7];
 console.log(findTwoNumbers(arr, 3));
 */
 
+/* 
+// 二叉树的中序遍历查找
 import { ITreeNode, getKthValue } from './lessons/lesson-08';
-
 const binaryTree: ITreeNode = {
   value: 5,
   left: {
@@ -84,5 +85,8 @@ const binaryTree: ITreeNode = {
     }
   }
 }
+console.log(getKthValue(binaryTree, 1)); 
+*/
 
-console.log(getKthValue(binaryTree, 1));
+import fibonacci from "./lessons/lesson-09";
+console.log(fibonacci(9));
