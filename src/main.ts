@@ -88,5 +88,22 @@ const binaryTree: ITreeNode = {
 console.log(getKthValue(binaryTree, 1)); 
 */
 
+/* 
+* 斐波拉契数
 import fibonacci from "./lessons/lesson-09";
-console.log(fibonacci(9));
+console.log(fibonacci(9)); 
+*/
+
+/* 
+* 移动数组o到末尾
+import moveZeroes from "./lessons/lesson-10";
+console.log(moveZeroes([1, 1, 0, 1, 1, 0]));
+*/
+
+/* 
+* 找到连续字符的长度 
+*/
+import findContinuousCharacters from "./lessons/lesson-11";
+console.info(findContinuousCharacters('aabbbbbbbeeee112'));
+console.info(findContinuousCharacters('abcd'));
+console.info(findContinuousCharacters('aaaaa'));
