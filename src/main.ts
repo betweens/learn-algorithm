@@ -102,8 +102,27 @@ console.log(moveZeroes([1, 1, 0, 1, 1, 0]));
 
 /* 
 * 找到连续字符的长度 
-*/
 import findContinuousCharacters from "./lessons/lesson-11";
 console.info(findContinuousCharacters('aabbbbbbbeeee112'));
 console.info(findContinuousCharacters('abcd'));
 console.info(findContinuousCharacters('aaaaa'));
+*/
+
+/* 
+ * 快速排序
+ */
+
+// import quickSort from "./lessons/lesson-12";
+// console.log(quickSort([3, 2, 1, 5, 4]));
+
+// 查找回文字符串
+// import findPalindrome from "./lessons/lesson-13";
+// console.log(findPalindrome(50));
+
+// 字符串前缀匹配
+// import formatNumbersThousandths from "./lessons/lesson-14";
+// console.info(formatNumbersThousandths(1234));
+
+// 切换字符大小写
+import swtichLetterCase from "./lessons/lesson-15";
+console.info('Hello World', swtichLetterCase('Hello World'));
