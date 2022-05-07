@@ -124,5 +124,27 @@ console.info(findContinuousCharacters('aaaaa'));
 // console.info(formatNumbersThousandths(1234));
 
 // 切换字符大小写
-import swtichLetterCase from "./lessons/lesson-15";
-console.info('Hello World', swtichLetterCase('Hello World'));
+// import swtichLetterCase from "./lessons/lesson-15";
+// console.info('Hello World', swtichLetterCase('Hello World'));
+
+// const ajax = (url) => {
+//   const request = new XMLHttpRequest();
+//   request.open('GET', url, false);
+//   request.onreadystatechange = (respones) => {
+//     console.log(respones);
+//   };
+//   request.send(null);
+// }
+
+// // 防抖函数
+// function debounce(func, wait = 1000) {
+//   let timeout;
+//   return function () {
+//     if(timeout) clearTimeout(timeout);
+//     timeout = setTimeout(() => {
+//       func.apply(this, arguments);
+//       timeout = null;
+//     }, wait);
+//     })
+//   }
+// }
